@@ -28,13 +28,18 @@ nav a{
     margin-top: 1px;
     color: rgb(255,255,255);
     font-size: 20px;
-    border: solid 2px green;
+    border: solid 2px lightgreen;
     border-radius: 30px;
     transition: .4s;
 
 }
+<<<<<<< HEAD
 nav a{
     color: green;
+=======
+nav ul li a{
+    color: white;
+>>>>>>> c86186b1fdbecbc97f9748d81419d3e4913f039c
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
