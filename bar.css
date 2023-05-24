@@ -24,13 +24,13 @@ nav ul li{
     margin-top: 1px;
     color: rgb(255,255,255);
     font-size: 20px;
-    border: solid 2px green;
+    border: solid 2px lightgreen;
     border-radius: 30px;
     transition: .4s;
 
 }
 nav ul li a{
-    color: green;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
