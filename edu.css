@@ -29,6 +29,14 @@ nav{
 span{
     color: black;
 }
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
 .nav ul li{
         list-style: none;
         display: flex;
