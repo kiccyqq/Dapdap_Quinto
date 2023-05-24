@@ -43,10 +43,6 @@ span{
         border-radius: 30px;
         transition: .4s;
 }
-.nav ul li a:hover{
-    color: black;
-    transition: .4s;
-}
 .btn{
     background-color: lightgreen;
     color: black;
