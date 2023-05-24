@@ -19,9 +19,15 @@ body{
     align-items: center;
     min-height: 400px;
 }
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
 .square img{
 	height: auto;
-	width: 80px;
+	width: 100px;
 	border-radius: 50px;
 }
 .cards{
@@ -34,6 +40,13 @@ body{
     position: relative;
     overflow: hidden;
     text-align: center;
+}
+.cards i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: darkslategray;
 }
 h1{ /*change font family of heading*/
 	font-family: sans-serif;
