@@ -7,6 +7,13 @@ h5{
     color: green;
     font-size: 23px;
     margin-bottom: 15px;
+	text-align: center;
+}
+.forda p{
+    color: darkolivegreen;
+    font-size: 15px;
+    line-height: 15px;
+    margin-bottom: 20px;
 }
 .second{
     width: 100%;
