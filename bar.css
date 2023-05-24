@@ -14,6 +14,17 @@ body{
 	border-radius: 250px;
 	position: center;
 }
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.square img{
+	height: auto;
+	width: 100px;
+	border-radius: 50px;
+}
 h1{ /*change font family of heading*/
 	font-family: sans-serif;
 }
