@@ -1,153 +1,50 @@
-.body{
-    font-family: 'brush script mt',cursive;
-	min-height: 100vh;
-    background-attachment: fixed;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
 }	
-.logo{
-    float: left;
-    width: 100px;
-    height: 100px;
-    padding-left: 20px;
-    padding-top: 10px;
-}
 .learncore{
 	text-decoration: none;
 	color: green;
-    line-height: 0px;
-	font-family: 'brush script mt',cursive;
-    margin-top: 100px;
-	position: absolute;
-	font-size: 60px;
-	margin-top: 100px;
-    margin-left: 150px;	
+    padding-top: 120px;
+    padding-bottom: 20px;
+	font-size: 75px;
+    text-align: center;
+    
 } 
 .letchi{
-	text-decoration: none;
+    padding-top: 50px;
+    padding-bottom: 10px;
 	color: green;
-    line-height: 0px;
-	font-family: 'brush script mt',cursive;
-    margin-top: 150px;
-	position: absolute;
 	font-size: 50px;
-	margin-top: 250px;
-    margin-left: 350px;
 	text-align: center;
 } 
-.title{
-    padding-top: 10px;
-    padding-left: 130px;
-    color: black;
-    font-size: 20px;
-    position: absolute;
-}
-.title2{
-	text-align: center;
-	margin-left: 350px;
-	color: green;
-}
-.navigation{
-    float: right;
-}
-nav ul{
-    list-style: none;
-    display: flex;
+nav{
+    text-align: center;
 }
 nav ul li{
-    padding: 1px 20px;
-    margin-right: 10px;
-    margin-top: 1px;
-    color: rgb(255,255,255);
-    font-size: 20px;
-    border: solid 2px green;
+    margin-top: 20px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:rgba(132, 235, 137, 0.671);
+    text-decoration: none;
     border-radius: 30px;
-    transition: .4s;
+}
+nav ul li:hover{
+    background-color: rgba(3, 78, 3, 0.795);
+    border: 2px solid rgb(1, 51, 1);
+    cursor: pointer;
 }
 nav ul li a{
-    color: black;
+    color: green;
     text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
 }
-.image{
-    position: absolute;
-    margin-top: 150px;
-    margin-left: 850px;
-    transition: .5s;
-} 
-.description-container{
-    width: 350px;
-    height: 580px;
-    border: solid black;
-    position: absolute;
-    margin-top: 150px;
-    margin-left: 250px;
-    border-radius: 15px;
-}
-#logo{
-    padding-top: 20px;
-    padding-left: 100px;
-}
-.description-container h1{
-    font-family: 'Lexend Exa', sans-serif;    
-    color: orange;
-    padding-left: 15px;
-}
-.shopnow-container{
-    position: absolute;
-    margin-top: 550px;
-    margin-left: 250px;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 15px;
-    background-color: black;
+nav ul li a:hover{
+    color: rgb(179, 226, 152);
     transition: .4s;
-}
-.shopnow-container a{
-    line-height: 1px;
-    font-family: 'Lexend Exa', sans-serif;  
-    text-decoration: none;
-    color: white;
-}
-.shopnow-container:hover{
-    transform: perspective(900px) translate3d(0px, 0px, 90px);
-    background-color: #6a8ac4;
-}
-.shopnow-container a:hover{
-    transform: perspective(900px) translate3d(0px, 0px, 90px);
-    background-color: #6a8ac4;
-}
-
-nav ul li:hover{
-    cursor: pointer;
-    background-color: whitesmoke;
-}
-.perks table{
-    position: absolute;
-    margin-top: 660px;
-    margin-left: 300px;
-}
-.perks table tr td img{
-    width: 70px;
-    height: 60px;
-    padding: 0px 90px;
-}
-.perks table tr td p{
-    text-align: center;
-    line-height: 0px;
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    color: black;
-}
-.footer p{
-    position: absolute;
-    color: rgb(255, 255, 255);
-    margin-top: 770px;
-    margin-left: 300px;
-    color: black;
-}
-#since{
-    margin-left: 630px;
-    padding-top: 10px;
-}
-.image:hover{
-    transform: perspective(900px) translate3d(10px, 10px, 90px);
 }
 

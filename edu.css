@@ -4,32 +4,18 @@
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
-
-.first{
-    height: 100vh;
-    width: 100%;
-    background-image: url(./img/kizzy-background.jpg);
-    background-size: cover;
-    background-position: center;  
+span{
+    color: black;
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 45px;
+    padding-top: 20px;
     padding-left: 8%;
     padding-right: 8%;
 }
-.logo{
-    color: green;
-    font-size: 35px;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-span{
-    color: black;
-}
-nav ul li{
+nav a{
     padding: 1px 20px;
     margin-right: 10px;
     margin-top: 1px;
@@ -40,120 +26,22 @@ nav ul li{
     transition: .4s;
 
 }
-nav ul li a{
+nav a{
     color: green;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
 
 }
-nav ul li a:hover{
+nav a:hover{
     color: black;
     transition: .4s;
 }
-.btn{
-    background-color: lightgreen;
-    color: black;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 10px 25px;
-    border-radius: 30px;
-    transition: transform .4s;
-}
-.content{
-    position: absolute;
-    top: 30%;
-    left: 8%;
-    transform: translateY(50%);
-}
-h1{
-    color: darkgreen;
-    margin: 20px 0px 20px;
-    font-size: 75px;
-}
-H1{
-    color: darkgreen;
-    font-size: 75px;
-}
-h3{
-    color: darkgreen;
-    font-size: 25px;
-    margin-bottom: 50px;
-}
-h4{
-    color: green;
-    letter-spacing: 2px;
-    font-size: 20px;
-}
 
-.second{
-    width: 100%;
-    padding: 100px;
-    background-color: rgb(243, 241, 237)
-}
-.second img{
-    height: auto;
-    width: 350px;
-}
-.second-text{
-    width: 550px;
-}
-.main{
-    width: 1130px;
-    max-width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.second-text h2{
-    color: green;
-    font-size: 70px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-}
-.second-text h5{
-    color: green;
-    letter-spacing: 2px;
-    line-height: 22px;
-    margin-bottom: 25px;
-    font-size: 20px;
-    text-transform: capitalize;
-}
-.second-text p{
-    color: darkgray;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 18px;
-    margin-bottom: 45px;
-}
-button{
-    background-color: lightgreen;
-    color: black;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 30px;
-    transition: .4s;
-}
-button:hover{
-    background-color: white;
-    border: 2px solid lightgreen;
-    cursor: pointer;
-}
-
-.third{
-    background-image: url(./img/background.JPG);
-    padding: 100px 0px;
-    background-position: center;
-}
 .title h2{
-    color: #4aa807;
+    color: green;
     font-size: 75px;
-    width: 1130px;
-    margin: 30px AUTO;
+    margin-top: 10px;
     text-align: center;
 }
 .square{
@@ -187,13 +75,14 @@ button:hover{
 }
 h5{
     color: green;
-    font-size: 23px;
-    margin-bottom: 15px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .forda p{
     color: darkolivegreen;
-    font-size: 15px;
-    line-height: 15px;
+    font-size: 20px;
+    line-height: 25px;
     margin-bottom: 20px;
 }
 .cards .button{
@@ -210,55 +99,4 @@ h5{
     background-color: lightgray;
     border: 2px solid lightgreen;
     cursor: pointer;
-}
-footer{
-    position: relative;
-    width: 100%;
-    height: 300px;
-    padding: 100px;
-    background-image: url(./img/last_background.JPG);
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-footer p:nth-child(1){
-    font-size: 30px;
-    color: green;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-footer p:nth-child(2){
-    font-size: 30px;
-    color: green;
-    width: 500px;
-    text-align: center;
-    font-weight: bold;
-}
-.socmed{
-    display: flex;
-}
-.socmed a{
-    width: 45px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: lightgreen;
-    border-radius: 50%;
-    margin: 22px 10px;
-    color: black;
-    text-decoration: none;
-    font-size: 20px;
-}
-.socmed a:hover{
-    transform: scale(1.34);
-    transition: .3s;
-}
-.ending{
-    position: absolute;
-    color: darkgray;
-    bottom: 35px;
-    font-size: 14px;
 }

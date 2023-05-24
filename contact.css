@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.content{
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    transform: translate(50%);
+}
+
+.third{
+    padding: 10px 0px;
+    background-position: center;
+}
+.title h2{
+    color: green;
+    font-size: 75px;
+    margin-top: 10px ;
+    text-align: center;
+}
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.square img{
+	height: auto;
+	width: 100px;
+	border-radius: 50px;
+}
+.cards{
+    height: 465px;
+    width: 500px;
+    padding: 20px 35px;
+    background: rgba(211, 211, 211, 0.74);
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.cards i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(14, 49, 22);
+}
+h5{
+    color: green;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.forda p{
+    color: darkolivegreen;
+    font-size: 20px;
+    line-height: 25px;
+
+    margin-bottom: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav a{
+    padding: 1px 20px;
+    margin-right: 10px;
+    margin-top: 1px;
+    color: rgb(255,255,255);
+    font-size: 20px;
+    border: solid 2px green;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+nav a{
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+nav a:hover{
+    color: black;
+    transition: .4s;
+}
