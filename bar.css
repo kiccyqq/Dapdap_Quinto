@@ -25,6 +25,17 @@ body{
 	width: 100px;
 	border-radius: 50px;
 }
+.cards{
+    height: 465px;
+    width: 500px;
+    padding: 20px 35px;
+    background: lightgrey;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
 h1{ /*change font family of heading*/
 	font-family: sans-serif;
 }
