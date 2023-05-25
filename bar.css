@@ -28,18 +28,13 @@ nav a{
     margin-top: 1px;
     color: rgb(255,255,255);
     font-size: 20px;
-    border: solid 2px lightgreen;
+    border: solid 2px green;
     border-radius: 30px;
     transition: .4s;
 
 }
-<<<<<<< HEAD
 nav a{
     color: green;
-=======
-nav ul li a{
-    color: white;
->>>>>>> c86186b1fdbecbc97f9748d81419d3e4913f039c
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
@@ -49,7 +44,6 @@ nav a:hover{
     color: black;
     transition: .4s;
 }
-
 h1{
     color: green;
     font-size: 23px;
@@ -81,22 +75,7 @@ h5{
     line-height: 15px;
     margin-bottom: 20px;
 }
-.second{
-    width: 100%;
-}
-.second img{
-    height: auto;
-    width: 250px;
-	border-radius: 250px;
-	position: center;
-}
 .square{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 300px;
-}
-.skills square{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,8 +87,8 @@ h5{
 	border-radius: 50px;
 }
 .cards{
-    height: 465px;
-    width: 500px;
+    height: 400px;
+    width: 300px;
     padding: 20px 35px;
     background: lightgrey;
     border-radius: 20px;
@@ -123,8 +102,21 @@ h5{
     display: block;
     text-align: center;
     margin: 25px 0px;
-    color: darkslategray;
+    color: rgb(14, 49, 22);
 }
+
+.new1{
+    height: 400px;
+    width: 300px;
+    padding: 20px 35px;
+    background: lightgrey;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
 p{ /*style the p tag*/
     color:rgb(80, 134, 84)
 	
@@ -156,12 +148,12 @@ p{ /*style the p tag*/
 }
 
 .htmlk{ /*set skills and animation of html*/
-	width: 70%;
+	width: 85%;
 	animation: html 2s;
 }
 
 .cssk{ /*set skills and animation of css*/
-	width: 90%;
+	width: 98%;
 	animation: css 2s;
 }
 
@@ -175,12 +167,12 @@ p{ /*style the p tag*/
 	animation: jquery 2s;
 }
 .htmld{ /*set skills and animation of html*/
-	width: 90%;
+	width: 82%;
 	animation: html 2s;
 }
 
 .cssd{ /*set skills and animation of css*/
-	width: 98%;
+	width: 95%;
 	animation: css 2s;
 }
 
