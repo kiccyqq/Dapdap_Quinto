@@ -56,11 +56,11 @@ nav a:hover{
 	border-radius: 50px;
 }
 .cards{
-    height: 465px;
+    height: 550px;
     width: 500px;
     padding: 20px 35px;
     background: lightgrey;
-    border-radius: 20px;
+    border-radius: 30px;
     margin: 15px;
     position: relative;
     overflow: hidden;
